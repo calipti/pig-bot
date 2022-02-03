@@ -14,7 +14,7 @@ const client = new Discord.Client({
   }
 })
 
-require('./utils/express.js')
+require('./express.js')
 
 const signale = new Signale()
 const { token, prefix } = require('./configs/config.json');
