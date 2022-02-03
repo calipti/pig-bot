@@ -3,7 +3,7 @@ const app = express()
 const port = 6969
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/html/index.html')
+  res.sendFile(__dirname + '/index.html')
 })
 
 app.listen(port, () => {
